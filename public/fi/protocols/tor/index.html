@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <title>Tor - Protokollat - PRISM Break
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Irrottaudu PRISM-ohjelmasta, NSA:n globaalista massavalvontaohjelmasta. Estä verkkokäyttäytymisesi jakaminen Yhdysvaltain tiedusteluorganisaatioille näillä vapailla ohelmistovaihtoehdoilla.">
+    <meta name="author" content="Peng Zhong">
+    <link rel="stylesheet" href="../../../assets/css/screen.css">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../../../assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="../../../assets/ico/favicon.png">
+    <link rel="icon" href="../../../assets/ico/favicon.png">
+  </head>
+  <body class="fi protocols show">
+    <div id="header"><a id="brand" href="../../"><strong>PRISM</strong><span class="lightning"> &#9889; </span>Break </a>
+      <div class="menu">
+        <div class="nav nav-all"><a href="../../all/">Kaikki projektit</a>
+        </div>
+        <div class="nav nav-platforms"><a href="../../">Alustat</a>
+        </div>
+        <div class="nav nav-protocols"><a href="../../protocols/">Protokollat</a>
+        </div>
+        <div class="nav nav-about"><a href="../../about/">Yleistä</a>
+        </div>
+        <div class="nav nav-donate"><a id="donate" href="bitcoin:1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw">Lahjoita Bitcoineja</a></div>
+      </div>
+    </div>
+    <div id="container">
+      <div class="content-main">
+        <div class="box">
+          <div class="card text">
+            <div class="btn-rectangle">
+              <div class="small"><a href="../../protocols/">Protokollat</a> /
+              </div>
+              <div class="title">Tor</div>
+            </div><a href="https://fi.wikipedia.org/wiki/Tor_%28verkko%29" class="btn-square"><i class="fa fa-external-link-square"></i></a>
+          </div>
+          <div class="text-block"><p>Tor (aiemmin lyhenne sanoista The Onion Router [4]) on vapaa ohjelmisto, joka mahdollistaa Internetin anonyymin käytön ja sensuurin kiertämisen. Se on suunniteltu mahdollistamaan sitä käyttävien henkilöiden anonyymin internetselaamisen niin, että valtion virastot, yritykset tai muut tahot eivät voi havaita heidän tekemisiä tai sijaintia.</p>
+</div>
+        </div>
+        <div class="section">
+          <div class="pipe positive">Tuetut projektit<i class="fa fa-check"></i>
+          </div>
+          <div class="card"><a href="../../projects/bitmessage" title="Salattu, ja hajautettu P2P viestintäpalvelu, jonka teknologia pohjautuu Bitcoiniin." class="btn-rectangle"><img src="../../../assets/img/logos/medium/bitmessage.png" alt="bitmessage.png" class="card-logo"/>
+              <div class="title">Bitmessage</div>
+              <div class="small">Salattu, ja hajautettu P2P viestintäpalvelu, jonka teknologia pohjautuu Bitcoiniin.</div>
+              <div class="tags">
+                <div class="tag yellow">kokeellinen</div>
+                <div class="tag">Android
+                </div>
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">iOS
+                </div>
+                <div class="tag">OS X
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://bitmessage.org/wiki/Main_Page" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/duckduckgo" title="Hakukone, jonka käyttö ei yksilöi käyttäjää tai jätä jälkiä hausta." class="btn-rectangle"><img src="../../../assets/img/logos/medium/duckduckgo.png" alt="duckduckgo.png" class="card-logo"/>
+              <div class="title">DuckDuckGo</div>
+              <div class="small">Hakukone, jonka käyttö ei yksilöi käyttäjää tai jätä jälkiä hausta.</div>
+              <div class="tags">
+                <div class="tag">Verkkopalvelut
+                </div>
+              </div></a><a href="https://duckduckgo.com/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/imgbi" title="Valokuvan ylläpitopalvelu selaimesa, AES-256 salattu." class="btn-rectangle"><img src="../../../assets/img/logos/medium/imgbi.png" alt="imgbi.png" class="card-logo"/>
+              <div class="title">img.bi</div>
+              <div class="small">Valokuvan ylläpitopalvelu selaimesa, AES-256 salattu.</div>
+              <div class="tags">
+                <div class="tag">Palvelimet
+                </div>
+                <div class="tag">Verkkopalvelut
+                </div>
+              </div></a><a href="https://img.bi/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/jondo-live-cd" title="Live CD/USB joka perustuu Debian:iin. Jakeluun on sisällytetty työkaluja mm. anonyymiin verkkoselaamiseen." class="btn-rectangle"><img src="../../../assets/img/logos/medium/jondonym.png" alt="jondonym.png" class="card-logo"/>
+              <div class="title">JonDo Live CD</div>
+              <div class="small">Live CD/USB joka perustuu Debian:iin. Jakeluun on sisällytetty työkaluja mm. anonyymiin verkkoselaamiseen.</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">OS X
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://anonymous-proxy-servers.net/en/jondo-live-cd.html" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/jondofox" title="Yksityinen selaus JonDo IP anonymisointipalvelulla ja JonDoFox Firefox profiililla." class="btn-rectangle"><img src="../../../assets/img/logos/medium/jondonym.png" alt="jondonym.png" class="card-logo"/>
+              <div class="title">JonDoFox</div>
+              <div class="small">Yksityinen selaus JonDo IP anonymisointipalvelulla ja JonDoFox Firefox profiililla.</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">OS X
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://anonymous-proxy-servers.net/en/jondofox.html" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/mediacrush" title="Yksityisyyttä korostava nopea median ylläpitopalvelu (kuvat, ääni ja video)." class="btn-rectangle"><img src="../../../assets/img/logos/medium/mediacrush.png" alt="mediacrush.png" class="card-logo"/>
+              <div class="title">MediaCrush</div>
+              <div class="small">Yksityisyyttä korostava nopea median ylläpitopalvelu (kuvat, ääni ja video).</div>
+              <div class="tags">
+                <div class="tag">Palvelimet
+                </div>
+              </div></a><a href="https://github.com/MediaCrush/MediaCrush" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/mozilla-thunderbird" title="Avoimen lähdekoodin sähköpostisovellus." class="btn-rectangle"><img src="../../../assets/img/logos/medium/mozilla-thunderbird.png" alt="mozilla-thunderbird.png" class="card-logo"/>
+              <div class="title">Mozilla Thunderbird</div>
+              <div class="small">Avoimen lähdekoodin sähköpostisovellus.</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">OS X
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://www.mozilla.org/en-US/thunderbird/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/onion-browser" title="Selaa verkkoa Tor-reitityksen kautta. iOS laitteille." class="btn-rectangle"><img src="../../../assets/img/logos/medium/onion-browser.png" alt="onion-browser.png" class="card-logo"/>
+              <div class="title">Onion Browser</div>
+              <div class="small">Selaa verkkoa Tor-reitityksen kautta. iOS laitteille.</div>
+              <div class="tags">
+                <div class="tag">iOS
+                </div>
+              </div></a><a href="https://mike.tig.as/onionbrowser/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/orbot" title="Tor-välityspalvelin Androidille." class="btn-rectangle"><img src="../../../assets/img/logos/medium/orbot.png" alt="orbot.png" class="card-logo"/>
+              <div class="title">Orbot</div>
+              <div class="small">Tor-välityspalvelin Androidille.</div>
+              <div class="tags">
+                <div class="tag">Android
+                </div>
+              </div></a><a href="https://guardianproject.info/apps/orbot/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/riseup" title="Yksityiset ja tietoturvalliset sähköpostitilit." class="btn-rectangle"><img src="../../../assets/img/logos/medium/riseup.png" alt="riseup.png" class="card-logo"/>
+              <div class="title">Riseup</div>
+              <div class="small">Yksityiset ja tietoturvalliset sähköpostitilit.</div>
+              <div class="tags">
+                <div class="tag">Verkkopalvelut
+                </div>
+              </div></a><a href="https://riseup.net/en" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/tails" title="TAILS on Debian-pohjainen GNU/Linux livekäyttöjärjestelmä jonka voi käynnistää millä tahansa tietokoneella joko DVD-levyltä, USB-muistilta tai SD-kortilta. Tails suojaa yksityisyyttäsi ja anonymiteettiäsi, ja auttaa käyttäjää kiertämään sensuuria pakottamalla kaikki yhteydet Internetiin Tor-verkon läpi. Tails ei jätä käyttöjärjestelmään jälkiä ellet erikseen pyydä. Käyttöjärjestelmältä löytyvät valmiiksi alansa huippua olevat kryptografiset työkalut, jotka salaavat tiedostot, sähköpostit ja pikaviestit." class="btn-rectangle"><img src="../../../assets/img/logos/medium/tails.png" alt="tails.png" class="card-logo"/>
+              <div class="title">Tails</div>
+              <div class="small">TAILS on Debian-pohjainen GNU/Linux livekäyttöjärjestelmä jonka voi käynnistää millä tahansa tietokoneella joko DVD-levyltä, USB-muistilta t&hellip;</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">OS X
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://tails.boum.org/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/tor" title="Tor, (aiemmin TOR, lyhenne nimestä 'The Onion Router') on vapaa ohjelmisto joka mahdollistaa anonyymin Internetin käytön.
+
+Tor ohjaa Internet-liikenteen ilmaisen, maailmanlaajuisen, yli 4000 vapaaehtoisesti ylläpidetyn välityspalvelimen (releen) joukosta poimittujen releiden läpi, piilottaen käyttäjän sijainnin ja verkon käyttötarkoituksen keneltä tahansa verkkoa valvovalta, tai verkon liikennettä analysoivalta. Tor:n käyttö tekee internet-käyttäytymisen seuraamisesta vaikeampaa: vierailut verkkosivuille, verkkoon kirjoitetut viestit, pikaviestit sekä muut viestintämuodot ovat erittäin vaikeita liittää alkuperäiseen käyttäjään. Tor on tarkoitettu suojaamaan käyttäjien yksityisyyttä sekä heidän vapauttaan ja kykyään toimia luottamuksellisesti, estämällä internetin käyttötottumusten valvonta.
+
+Tor verkon piilopalvelut (Tor Hidden Services) mahdollistavat sensuurivapaan julkaisun, sillä verkkopalvelin käytkeytyy tor-reitittimen taakse ja on siten erittäin työläs jäljittää." class="btn-rectangle"><img src="../../../assets/img/logos/medium/tor.png" alt="tor.png" class="card-logo"/>
+              <div class="title">Tor</div>
+              <div class="small">Tor, (aiemmin TOR, lyhenne nimestä 'The Onion Router') on vapaa ohjelmisto joka mahdollistaa anonyymin Internetin käytön.
+
+Tor ohjaa Interne&hellip;</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">OS X
+                </div>
+                <div class="tag">Palvelimet
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://www.torproject.org/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/tor-browser-bundle" title="Tor Browser bundle on Mozillan Firefoxiin perustuva verkkoselain, joka mahdollistaa anonyymin verkkoselaamisen GNU/Linux, Windows ja OSX käyttöjärjestelmillä." class="btn-rectangle"><img src="../../../assets/img/logos/medium/tor-browser-bundle.png" alt="tor-browser-bundle.png" class="card-logo"/>
+              <div class="title">Tor Browser Bundle</div>
+              <div class="small">Tor Browser bundle on Mozillan Firefoxiin perustuva verkkoselain, joka mahdollistaa anonyymin verkkoselaamisen GNU/Linux, Windows ja OSX käy&hellip;</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">OS X
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://www.torproject.org/projects/torbrowser.html.en" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/torbirdy" title="Laajennus jolla Thunderbird ja Icedove voivat anonymisoida verkkoliikenteen Tor-verkon kautta." class="btn-rectangle"><img src="../../../assets/img/logos/medium/torbirdy.png" alt="torbirdy.png" class="card-logo"/>
+              <div class="title">TorBirdy</div>
+              <div class="small">Laajennus jolla Thunderbird ja Icedove voivat anonymisoida verkkoliikenteen Tor-verkon kautta.</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">OS X
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://trac.torproject.org/projects/tor/wiki/torbirdy" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/torchat" title="Anonyymi, hajautettu P2P keskusteluohjelma, joka perustuu Tor:in piilopalveluihin." class="btn-rectangle"><img src="../../../assets/img/logos/medium/torchat.png" alt="torchat.png" class="card-logo"/>
+              <div class="title">TorChat</div>
+              <div class="small">Anonyymi, hajautettu P2P keskusteluohjelma, joka perustuu Tor:in piilopalveluihin.</div>
+              <div class="tags">
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://github.com/prof7bit/TorChat/wiki" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/whonix" title="VM-ystävällinen Debian-pohjainen GNU/Linux-jakelu. Järjestelmä pyrkii olemaan turvallinen ja yksityinen mm. Tor-reititystä tukemalla." class="btn-rectangle"><img src="../../../assets/img/logos/medium/whonix.png" alt="whonix.png" class="card-logo"/>
+              <div class="title">Whonix</div>
+              <div class="small">VM-ystävällinen Debian-pohjainen GNU/Linux-jakelu. Järjestelmä pyrkii olemaan turvallinen ja yksityinen mm. Tor-reititystä tukemalla.</div>
+              <div class="tags">
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">OS X
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://www.whonix.org/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="filler-columns-two">
+          </div>
+        </div>
+      </div>
+      <div class="content-side">
+        <div class="section"><a href="../../protocols/" class="pipe">Protokollat</a>
+          <div title="Anonymiteetti" class="pipe subtle">Anonymiteetti</div><a href="../../protocols/i2p" class="bar child">
+            <div class="label">I2P
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a>
+          <div class="bar active child">
+            <div class="label">Tor
+            </div>
+            <div class="icon"><i class="fa fa-dot-circle-o"></i></div>
+          </div>
+          <div title="Kommunikaatio" class="pipe subtle">Kommunikaatio</div><a href="../../protocols/dns" class="bar child">
+            <div class="label">DNS
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/irc" class="bar child">
+            <div class="label">IRC
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/sip" class="bar child">
+            <div class="label">SIP
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/tox" class="bar child">
+            <div class="label">Tox
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/voip" class="bar child">
+            <div class="label">VoIP
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/xmpp" class="bar child">
+            <div class="label">XMPP
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a>
+          <div title="Salaus" class="pipe subtle">Salaus</div><a href="../../protocols/gpg" class="bar child">
+            <div class="label">GPG
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/otr" class="bar child">
+            <div class="label">OTR
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/s-mime" class="bar child">
+            <div class="label">S/MIME
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/ssl-tls" class="bar child">
+            <div class="label">SSL/TLS
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/zrtp" class="bar child">
+            <div class="label">ZRTP
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a>
+          <div title="Synkronointi" class="pipe subtle">Synkronointi</div><a href="../../protocols/activesync" class="bar child">
+            <div class="label">ActiveSync
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/caldav" class="bar child">
+            <div class="label">CalDAV
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/carddav" class="bar child">
+            <div class="label">CardDAV
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/webdav" class="bar child">
+            <div class="label">WebDAV
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a>
+          <div title="Syndikointi" class="pipe subtle">Syndikointi</div><a href="../../protocols/rss" class="bar child">
+            <div class="label">RSS
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="content-side">
+        <div class="text-block">
+          <p class="disclaimer">Varoitus: Tällä sivulla suositellut ohjelmat eivät takaa 100% suojaa valvontayhteiskunnan koneistolta. Tee itsenäistä tutkimusta ennen kuin luotat sivuston ohjelmiin.</p>
+        </div>
+      </div>
+      <div class="content-main">
+        <ul class="languages">
+          <li><a href="../../../ar/protocols/tor/">العربية</a></li>
+          <li><a href="../../../ca/protocols/tor/">Català</a></li>
+          <li><a href="../../../de/protocols/tor/">Deutsch</a></li>
+          <li><a href="../../../el/protocols/tor/">ελληνικά</a></li>
+          <li><a href="../../../eo/protocols/tor/">Esperanto</a></li>
+          <li><a href="../../../en/protocols/tor/">English</a></li>
+          <li><a href="../../../es/protocols/tor/">Español</a></li>
+          <li><a href="../../../fa/protocols/tor/">فارسی</a></li>
+          <li><a href="../../../fi/protocols/tor/">Suomi</a></li>
+          <li><a href="../../../fr/protocols/tor/">Français</a></li>
+          <li><a href="../../../he/protocols/tor/">עברית</a></li>
+          <li><a href="../../../hi/protocols/tor/">हिन्दी</a></li>
+          <li><a href="../../../io/protocols/tor/">Ido</a></li>
+          <li><a href="../../../it/protocols/tor/">Italiano</a></li>
+          <li><a href="../../../ja/protocols/tor/">日本語</a></li>
+          <li><a href="../../../nl/protocols/tor/">Nederlands</a></li>
+          <li><a href="../../../no/protocols/tor/">Norsk</a></li>
+          <li><a href="../../../pl/protocols/tor/">Polski</a></li>
+          <li><a href="../../../pt/protocols/tor/">Português</a></li>
+          <li><a href="../../../ru/protocols/tor/">Русский</a></li>
+          <li><a href="../../../sr/protocols/tor/">srpski</a></li>
+          <li><a href="../../../sr-Cyrl/protocols/tor/">српски</a></li>
+          <li><a href="../../../sv/protocols/tor/">Svenska</a></li>
+          <li><a href="../../../tr/protocols/tor/">Türkçe</a></li>
+          <li><a href="../../../zh-CN/protocols/tor/">简体中文</a></li>
+          <li><a href="../../../zh-TW/protocols/tor/">繁體中文</a></li>
+        </ul>
+      </div>
+      <ul class="nav">
+        <li><a href="https://github.com/nylira/prism-break/issues">Osallistu</a></li>
+        <li><a href="https://github.com/nylira/prism-break/blob/master/LICENSE.md">Lisenssi</a></li>
+        <li><a href="https://github.com/nylira/prism-break">Lähdekoodi</a></li>
+        <li><a href="https://github.com/nylira/prism-break/commits/master">Päivitetty viimeksi: 2015-03-24</a></li>
+        <li class="copyright">&copy; <a href="http://nylira.com">Peng Zhong </a>2015
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

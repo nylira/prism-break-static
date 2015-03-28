@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <title>GPG - Protokollat - PRISM Break
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Irrottaudu PRISM-ohjelmasta, NSA:n globaalista massavalvontaohjelmasta. Estä verkkokäyttäytymisesi jakaminen Yhdysvaltain tiedusteluorganisaatioille näillä vapailla ohelmistovaihtoehdoilla.">
+    <meta name="author" content="Peng Zhong">
+    <link rel="stylesheet" href="../../../assets/css/screen.css">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../../../assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="../../../assets/ico/favicon.png">
+    <link rel="icon" href="../../../assets/ico/favicon.png">
+  </head>
+  <body class="fi protocols show">
+    <div id="header"><a id="brand" href="../../"><strong>PRISM</strong><span class="lightning"> &#9889; </span>Break </a>
+      <div class="menu">
+        <div class="nav nav-all"><a href="../../all/">Kaikki projektit</a>
+        </div>
+        <div class="nav nav-platforms"><a href="../../">Alustat</a>
+        </div>
+        <div class="nav nav-protocols"><a href="../../protocols/">Protokollat</a>
+        </div>
+        <div class="nav nav-about"><a href="../../about/">Yleistä</a>
+        </div>
+        <div class="nav nav-donate"><a id="donate" href="bitcoin:1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw">Lahjoita Bitcoineja</a></div>
+      </div>
+    </div>
+    <div id="container">
+      <div class="content-main">
+        <div class="box">
+          <div class="card text">
+            <div class="btn-rectangle">
+              <div class="small"><a href="../../protocols/">Protokollat</a> /
+              </div>
+              <div class="title">GPG</div>
+            </div><a href="https://en.wikipedia.org/wiki/GNU_Privacy_Guard" class="btn-square"><i class="fa fa-external-link-square"></i></a>
+          </div>
+          <div class="text-block"><p>GNU Privacy Guard (GnuPG or GPG) on GPL-lisensoitu vaihtoehto PGP:lle, kokoelmalle kryptografisia ohjelmia. GnuPG on yhteensopiva RFC 4880:n kanssa, joka on tämänhetkinen IETF standardimääritelmä OpenPGP:lle. Nykyisen PGP:n versiot ja Veridisin Filecrypt ovat yhteensopivia GnuPG:n ja muiden OpenPGPG-yhteensopivien ohjelmien kanssa.</p>
+</div>
+        </div>
+        <div class="section">
+          <div class="pipe positive">Tuetut projektit<i class="fa fa-check"></i>
+          </div>
+          <div class="card"><a href="../../projects/apg" title="OpenPGP implementaatio Androidille." class="btn-rectangle"><img src="../../../assets/img/logos/medium/apg.png" alt="apg.png" class="card-logo"/>
+              <div class="title">APG</div>
+              <div class="small">OpenPGP implementaatio Androidille.</div>
+              <div class="tags">
+                <div class="tag">Android
+                </div>
+              </div></a><a href="http://www.thialfihar.org/projects/apg/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/claws-mail" title="Kevyt sähköpostisovellus GnuPG-tuella." class="btn-rectangle"><img src="../../../assets/img/logos/medium/claws-mail.png" alt="claws-mail.png" class="card-logo"/>
+              <div class="title">Claws Mail</div>
+              <div class="small">Kevyt sähköpostisovellus GnuPG-tuella.</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">OS X
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="http://www.claws-mail.org/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/enigmail" title="OpenPGP-lisäosa Thunderbirdille ja Icedovelle." class="btn-rectangle"><img src="../../../assets/img/logos/medium/enigmail.png" alt="enigmail.png" class="card-logo"/>
+              <div class="title">Enigmail</div>
+              <div class="small">OpenPGP-lisäosa Thunderbirdille ja Icedovelle.</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">OS X
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://www.enigmail.net/home/index.php" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/evolution" title="Vapaa sähköposti- ja kalenterisovellus." class="btn-rectangle"><img src="../../../assets/img/logos/medium/evolution.png" alt="evolution.png" class="card-logo"/>
+              <div class="title">Evolution</div>
+              <div class="small">Vapaa sähköposti- ja kalenterisovellus.</div>
+              <div class="tags">
+                <div class="tag">GNU/Linux
+                </div>
+              </div></a><a href="https://projects.gnome.org/evolution/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/freedombox" title="FreedomBox integroi yksityisyyden suojaavia toimintoja yksinkertaiseen palvelimeen tuoden yksityisyyden kaikille." class="btn-rectangle"><img src="../../../assets/img/logos/medium/freedombox.png" alt="freedombox.png" class="card-logo"/>
+              <div class="title">FreedomBox</div>
+              <div class="small">FreedomBox integroi yksityisyyden suojaavia toimintoja yksinkertaiseen palvelimeen tuoden yksityisyyden kaikille.</div>
+              <div class="tags">
+                <div class="tag">Palvelimet
+                </div>
+              </div></a><a href="https://www.freedomboxfoundation.org/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/gajim" title="Kevyt ja nopea pikaviestiohjelma GNU/Linux ja Windows käyttöjärjestelmiin&amp;mdash;OTR -salaus on saatavilla liitännäisenä." class="btn-rectangle"><img src="../../../assets/img/logos/medium/gajim.png" alt="gajim.png" class="card-logo"/>
+              <div class="title">Gajim</div>
+              <div class="small">Kevyt ja nopea pikaviestiohjelma GNU/Linux ja Windows käyttöjärjestelmiin&mdash;OTR -salaus on saatavilla liitännäisenä.</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="http://gajim.org/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/git-annex" title="Synkronoi tiedostot ja kansiot tietokoneiden ja verkkolevyjen välillä." class="btn-rectangle"><img src="../../../assets/img/logos/medium/git-annex.png" alt="git-annex.png" class="card-logo"/>
+              <div class="title">git-annex</div>
+              <div class="small">Synkronoi tiedostot ja kansiot tietokoneiden ja verkkolevyjen välillä.</div>
+              <div class="tags">
+                <div class="tag">Android
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">OS X
+                </div>
+                <div class="tag">Palvelimet
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://git-annex.branchable.com/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/gnu-privacy-guard" title="Vapaa OpenPGP-sovellus." class="btn-rectangle"><img src="../../../assets/img/logos/medium/gnupg.png" alt="gnupg.png" class="card-logo"/>
+              <div class="title">GNU Privacy Guard</div>
+              <div class="small">Vapaa OpenPGP-sovellus.</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">OS X
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="http://www.gnupg.org/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/gpg-for-android" title="Porttaus GnuPG 2.1: työkaluista Androidille.
+
+Gnu Privacy Guard (GPG) antaa mahdollisuuden hallita koko GnuPG salausohjelmistoa. GnuPG on GNU:n työkalu päästä päähän salattuun viestintään ja suojattuun tiedoston säilytykseen. Tämä luotettu protokolla on vapaa vaihtoehto PGP:lle. GnuPG 2.1 on uusi, modularisoitu versio GnuPG:stä, joka tukee nyt OpenPGP:tä ja S/MIMEa." class="btn-rectangle"><img src="../../../assets/img/logos/medium/gnupg-for-android.png" alt="gnupg-for-android.png" class="card-logo"/>
+              <div class="title">GPG for Android</div>
+              <div class="small">Porttaus GnuPG 2.1: työkaluista Androidille.
+
+Gnu Privacy Guard (GPG) antaa mahdollisuuden hallita koko GnuPG salausohjelmistoa. GnuPG on GN&hellip;</div>
+              <div class="tags">
+                <div class="tag">Android
+                </div>
+              </div></a><a href="https://guardianproject.info/code/gnupg/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/gpg4win" title="Gpg4win on asennuspaketti Windowsille (XP, Vista, 7 and 8), joka sisältää työkaluja sekä Saksan tietoturvaviraston käyttöohjeita sähköpostin ja tiedostojen salaamiseen. Gpg4win ja sen kaikki työkalut ovat vapaita ja avointa lähdekoodia. Ohjelmisto käyttää pääasiallisesti julkisen avaimen kryptografiaa tiedostojen salaamiseen sekä digitaalisiin allekirjoituksiin." class="btn-rectangle"><img src="../../../assets/img/logos/medium/gpg4win.png" alt="gpg4win.png" class="card-logo"/>
+              <div class="title">Gpg4win</div>
+              <div class="small">Gpg4win on asennuspaketti Windowsille (XP, Vista, 7 and 8), joka sisältää työkaluja sekä Saksan tietoturvaviraston käyttöohjeita sähköpostin&hellip;</div>
+              <div class="tags">
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="http://www.gpg4win.org/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/gpgtools" title="OpenPGP laajennus Apple OS X Mail:ille." class="btn-rectangle"><img src="../../../assets/img/logos/medium/gpgtools.png" alt="gpgtools.png" class="card-logo"/>
+              <div class="title">GPGTools</div>
+              <div class="small">OpenPGP laajennus Apple OS X Mail:ille.</div>
+              <div class="tags">
+                <div class="tag">OS X
+                </div>
+              </div></a><a href="https://gpgtools.org/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/jondo-live-cd" title="Live CD/USB joka perustuu Debian:iin. Jakeluun on sisällytetty työkaluja mm. anonyymiin verkkoselaamiseen." class="btn-rectangle"><img src="../../../assets/img/logos/medium/jondonym.png" alt="jondonym.png" class="card-logo"/>
+              <div class="title">JonDo Live CD</div>
+              <div class="small">Live CD/USB joka perustuu Debian:iin. Jakeluun on sisällytetty työkaluja mm. anonyymiin verkkoselaamiseen.</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">OS X
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://anonymous-proxy-servers.net/en/jondo-live-cd.html" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/k-9-mail" title="Avoimen lähdekoodin sähköpostisovellus Androidille, PGP-tuella." class="btn-rectangle"><img src="../../../assets/img/logos/medium/k9-mail.png" alt="k9-mail.png" class="card-logo"/>
+              <div class="title">K-9 Mail</div>
+              <div class="small">Avoimen lähdekoodin sähköpostisovellus Androidille, PGP-tuella.</div>
+              <div class="tags">
+                <div class="tag">Android
+                </div>
+              </div></a><a href="http://code.google.com/p/k9mail/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/kontact" title="KDE-sähköpostiohjelma GPG-tuella." class="btn-rectangle"><img src="../../../assets/img/logos/medium/kontact.png" alt="kontact.png" class="card-logo"/>
+              <div class="title">Kontact</div>
+              <div class="small">KDE-sähköpostiohjelma GPG-tuella.</div>
+              <div class="tags">
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="http://www.kontact.org/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/mailvelope" title="OpenPGP-salaus verkkoselaimella käytettävälle sähköpostille." class="btn-rectangle"><img src="../../../assets/img/logos/medium/mailvelope.png" alt="mailvelope.png" class="card-logo"/>
+              <div class="title">Mailvelope</div>
+              <div class="small">OpenPGP-salaus verkkoselaimella käytettävälle sähköpostille.</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">OS X
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="http://www.mailvelope.com/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/mozilla-thunderbird" title="Avoimen lähdekoodin sähköpostisovellus." class="btn-rectangle"><img src="../../../assets/img/logos/medium/mozilla-thunderbird.png" alt="mozilla-thunderbird.png" class="card-logo"/>
+              <div class="title">Mozilla Thunderbird</div>
+              <div class="small">Avoimen lähdekoodin sähköpostisovellus.</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">OS X
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://www.mozilla.org/en-US/thunderbird/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/openkeychain" title="OpenKeychain on OpenPGP implementaatio Androidille." class="btn-rectangle"><img src="../../../assets/img/logos/medium/open-keychain.png" alt="open-keychain.png" class="card-logo"/>
+              <div class="title">OpenKeychain</div>
+              <div class="small">OpenKeychain on OpenPGP implementaatio Androidille.</div>
+              <div class="tags">
+                <div class="tag">Android
+                </div>
+              </div></a><a href="http://www.openkeychain.org/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/psi" title="Useampaa alustaa tukeva pikaviestialusta tehokäyttäjille. Sisäänrakennetulla OTR-tuella." class="btn-rectangle"><img src="../../../assets/img/logos/medium/psi-plus.png" alt="psi-plus.png" class="card-logo"/>
+              <div class="title">Psi+</div>
+              <div class="small">Useampaa alustaa tukeva pikaviestialusta tehokäyttäjille. Sisäänrakennetulla OTR-tuella.</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">OS X
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="http://psi-plus.com/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/retroshare" title="Ilmainen ja turvallinen P2P-keskustelualusta." class="btn-rectangle"><img src="../../../assets/img/logos/medium/retroshare.png" alt="retroshare.png" class="card-logo"/>
+              <div class="title">RetroShare</div>
+              <div class="small">Ilmainen ja turvallinen P2P-keskustelualusta.</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">OS X
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="http://retroshare.sourceforge.net/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/sylpheed" title="Kevyt ja käyttäjäystävällinen sähköpostiasiakasohjelma." class="btn-rectangle"><img src="../../../assets/img/logos/medium/sylpheed.png" alt="sylpheed.png" class="card-logo"/>
+              <div class="title">Sylpheed</div>
+              <div class="small">Kevyt ja käyttäjäystävällinen sähköpostiasiakasohjelma.</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">OS X
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="http://sylpheed.sraoss.jp/en/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/tails" title="TAILS on Debian-pohjainen GNU/Linux livekäyttöjärjestelmä jonka voi käynnistää millä tahansa tietokoneella joko DVD-levyltä, USB-muistilta tai SD-kortilta. Tails suojaa yksityisyyttäsi ja anonymiteettiäsi, ja auttaa käyttäjää kiertämään sensuuria pakottamalla kaikki yhteydet Internetiin Tor-verkon läpi. Tails ei jätä käyttöjärjestelmään jälkiä ellet erikseen pyydä. Käyttöjärjestelmältä löytyvät valmiiksi alansa huippua olevat kryptografiset työkalut, jotka salaavat tiedostot, sähköpostit ja pikaviestit." class="btn-rectangle"><img src="../../../assets/img/logos/medium/tails.png" alt="tails.png" class="card-logo"/>
+              <div class="title">Tails</div>
+              <div class="small">TAILS on Debian-pohjainen GNU/Linux livekäyttöjärjestelmä jonka voi käynnistää millä tahansa tietokoneella joko DVD-levyltä, USB-muistilta t&hellip;</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">OS X
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://tails.boum.org/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="filler-columns-two">
+            <div class="card two-col"> </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-side">
+        <div class="section"><a href="../../protocols/" class="pipe">Protokollat</a>
+          <div title="Anonymiteetti" class="pipe subtle">Anonymiteetti</div><a href="../../protocols/i2p" class="bar child">
+            <div class="label">I2P
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/tor" class="bar child">
+            <div class="label">Tor
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a>
+          <div title="Kommunikaatio" class="pipe subtle">Kommunikaatio</div><a href="../../protocols/dns" class="bar child">
+            <div class="label">DNS
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/irc" class="bar child">
+            <div class="label">IRC
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/sip" class="bar child">
+            <div class="label">SIP
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/tox" class="bar child">
+            <div class="label">Tox
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/voip" class="bar child">
+            <div class="label">VoIP
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/xmpp" class="bar child">
+            <div class="label">XMPP
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a>
+          <div title="Salaus" class="pipe subtle">Salaus</div>
+          <div class="bar active child">
+            <div class="label">GPG
+            </div>
+            <div class="icon"><i class="fa fa-dot-circle-o"></i></div>
+          </div><a href="../../protocols/otr" class="bar child">
+            <div class="label">OTR
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/s-mime" class="bar child">
+            <div class="label">S/MIME
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/ssl-tls" class="bar child">
+            <div class="label">SSL/TLS
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/zrtp" class="bar child">
+            <div class="label">ZRTP
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a>
+          <div title="Synkronointi" class="pipe subtle">Synkronointi</div><a href="../../protocols/activesync" class="bar child">
+            <div class="label">ActiveSync
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/caldav" class="bar child">
+            <div class="label">CalDAV
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/carddav" class="bar child">
+            <div class="label">CardDAV
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/webdav" class="bar child">
+            <div class="label">WebDAV
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a>
+          <div title="Syndikointi" class="pipe subtle">Syndikointi</div><a href="../../protocols/rss" class="bar child">
+            <div class="label">RSS
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="content-side">
+        <div class="text-block">
+          <p class="disclaimer">Varoitus: Tällä sivulla suositellut ohjelmat eivät takaa 100% suojaa valvontayhteiskunnan koneistolta. Tee itsenäistä tutkimusta ennen kuin luotat sivuston ohjelmiin.</p>
+        </div>
+      </div>
+      <div class="content-main">
+        <ul class="languages">
+          <li><a href="../../../ar/protocols/gpg/">العربية</a></li>
+          <li><a href="../../../ca/protocols/gpg/">Català</a></li>
+          <li><a href="../../../de/protocols/gpg/">Deutsch</a></li>
+          <li><a href="../../../el/protocols/gpg/">ελληνικά</a></li>
+          <li><a href="../../../eo/protocols/gpg/">Esperanto</a></li>
+          <li><a href="../../../en/protocols/gpg/">English</a></li>
+          <li><a href="../../../es/protocols/gpg/">Español</a></li>
+          <li><a href="../../../fa/protocols/gpg/">فارسی</a></li>
+          <li><a href="../../../fi/protocols/gpg/">Suomi</a></li>
+          <li><a href="../../../fr/protocols/gpg/">Français</a></li>
+          <li><a href="../../../he/protocols/gpg/">עברית</a></li>
+          <li><a href="../../../hi/protocols/gpg/">हिन्दी</a></li>
+          <li><a href="../../../io/protocols/gpg/">Ido</a></li>
+          <li><a href="../../../it/protocols/gpg/">Italiano</a></li>
+          <li><a href="../../../ja/protocols/gpg/">日本語</a></li>
+          <li><a href="../../../nl/protocols/gpg/">Nederlands</a></li>
+          <li><a href="../../../no/protocols/gpg/">Norsk</a></li>
+          <li><a href="../../../pl/protocols/gpg/">Polski</a></li>
+          <li><a href="../../../pt/protocols/gpg/">Português</a></li>
+          <li><a href="../../../ru/protocols/gpg/">Русский</a></li>
+          <li><a href="../../../sr/protocols/gpg/">srpski</a></li>
+          <li><a href="../../../sr-Cyrl/protocols/gpg/">српски</a></li>
+          <li><a href="../../../sv/protocols/gpg/">Svenska</a></li>
+          <li><a href="../../../tr/protocols/gpg/">Türkçe</a></li>
+          <li><a href="../../../zh-CN/protocols/gpg/">简体中文</a></li>
+          <li><a href="../../../zh-TW/protocols/gpg/">繁體中文</a></li>
+        </ul>
+      </div>
+      <ul class="nav">
+        <li><a href="https://github.com/nylira/prism-break/issues">Osallistu</a></li>
+        <li><a href="https://github.com/nylira/prism-break/blob/master/LICENSE.md">Lisenssi</a></li>
+        <li><a href="https://github.com/nylira/prism-break">Lähdekoodi</a></li>
+        <li><a href="https://github.com/nylira/prism-break/commits/master">Päivitetty viimeksi: 2015-03-24</a></li>
+        <li class="copyright">&copy; <a href="http://nylira.com">Peng Zhong </a>2015
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

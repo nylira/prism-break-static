@@ -1,0 +1,6 @@
+.DS_Store
+tmp/
+node_modules
+*~
+*.log
+.*.s[a-w][a-z]
