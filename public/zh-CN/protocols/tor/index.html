@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <title>Tor - 协议 - PRISM Break
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="粉碎棱镜——保护你自己的安全、隐私和自由！让我们逃离所有类似于棱镜计划、XKeyscore 和时代计划的全球信息监控项目。我们都有隐私权，现在你可以尝试着开始加密你的通信并摆脱对专有服务的依赖。">
+    <meta name="author" content="Peng Zhong">
+    <link rel="stylesheet" href="../../../assets/css/screen.css">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../../assets/icons/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../../assets/icons/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../../assets/icons/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../../../assets/icons/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="../../../assets/icons/favicon.png">
+    <link rel="icon" href="../../../assets/icons/favicon.png">
+  </head>
+  <body class="zh-CN protocols show">
+    <div id="header"><a id="brand" href="../../"><strong>PRISM</strong><span class="lightning"> &#9889; </span>Break </a>
+      <div class="menu">
+        <div class="nav nav-all"><a href="../../all/">所有项目</a>
+        </div>
+        <div class="nav nav-platforms"><a href="../../">平台</a>
+        </div>
+        <div class="nav nav-protocols"><a href="../../protocols/">协议</a>
+        </div>
+        <div class="nav nav-about"><a href="../../about/">关于</a>
+        </div>
+        <div class="nav nav-donate"><a id="donate" href="bitcoin:1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw">捐赠比特币</a></div>
+      </div>
+    </div>
+    <div id="container">
+      <div class="content-main">
+        <div class="box">
+          <div class="card text">
+            <div class="btn-rectangle">
+              <div class="small"><a href="../../protocols/">协议</a> /
+              </div>
+              <div class="title">Tor</div>
+            </div><a href="https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29" class="btn-square"><i class="fa fa-external-link-square"></i></a>
+          </div>
+          <div class="text-block"><p>Tor (previously TOR, an acronym for The Onion Router) is a free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user&#39;s location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including “visits to Web sites, online posts, instant messages, and other communication forms”, back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.</p>
+</div>
+        </div>
+        <div class="section">
+          <div class="pipe positive">受支持的项目<i class="fa fa-check"></i>
+          </div>
+          <div class="card"><a href="../../projects/antiprism" title="Live USB/memory card OpenELEC-based media server toolbox platform for securing the online presence, web browsing and communications." class="btn-rectangle"><img src="../../../assets/images/logos/medium/antiprism.png" alt="antiprism.png" class="card-logo"/>
+              <div class="title">AntiPrism</div>
+              <div class="small">Live USB/memory card OpenELEC-based media server toolbox platform for securing the online presence, web browsing and communications.</div>
+              <div class="tags">
+                <div class="tag">服务器
+                </div>
+              </div></a><a href="https://www.antiprism.ca/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/bitmessage" title="比特信：加密、去中心化的 P2P 交流工具，基于比特币技术。" class="btn-rectangle"><img src="../../../assets/images/logos/medium/bitmessage.png" alt="bitmessage.png" class="card-logo"/>
+              <div class="title">Bitmessage</div>
+              <div class="small">比特信：加密、去中心化的 P2P 交流工具，基于比特币技术。</div>
+              <div class="tags">
+                <div class="tag yellow">试验性功能</div>
+                <div class="tag">Android
+                </div>
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">iOS
+                </div>
+                <div class="tag">macOS
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://bitmessage.org/wiki/Main_Page" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/duckduckgo" title="匿名、无记录的 Web 搜索" class="btn-rectangle"><img src="../../../assets/images/logos/medium/duckduckgo.png" alt="duckduckgo.png" class="card-logo"/>
+              <div class="title">DuckDuckGo</div>
+              <div class="small">匿名、无记录的 Web 搜索</div>
+              <div class="tags">
+                <div class="tag">网络服务
+                </div>
+              </div></a><a href="https://duckduckgo.com/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/jondo-live-cd" title="基于 Debian 的 CD/USB 即插即用便携系统，附带匿名浏览工具等预设。" class="btn-rectangle"><img src="../../../assets/images/logos/medium/jondonym.png" alt="jondonym.png" class="card-logo"/>
+              <div class="title">JonDo Live CD</div>
+              <div class="small">基于 Debian 的 CD/USB 即插即用便携系统，附带匿名浏览工具等预设。</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">macOS
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://anonymous-proxy-servers.net/en/jondo-live-cd.html" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/jondofox" title="使用 JonDo 的 IP 隐匿服务和 JonDoFox 个人信息的火狐。" class="btn-rectangle"><img src="../../../assets/images/logos/medium/jondonym.png" alt="jondonym.png" class="card-logo"/>
+              <div class="title">JonDoFox</div>
+              <div class="small">使用 JonDo 的 IP 隐匿服务和 JonDoFox 个人信息的火狐。</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">macOS
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://anonymous-proxy-servers.net/en/jondofox.html" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/mozilla-thunderbird" title="跨平台的开源电子邮件应用，使用 Enigmail 插件，你可以实现邮件加密。" class="btn-rectangle"><img src="../../../assets/images/logos/medium/mozilla-thunderbird.png" alt="mozilla-thunderbird.png" class="card-logo"/>
+              <div class="title">Mozilla Thunderbird</div>
+              <div class="small">跨平台的开源电子邮件应用，使用 Enigmail 插件，你可以实现邮件加密。</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">macOS
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://www.mozilla.org/en-US/thunderbird/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/onion-browser" title="IOS 平台上的开源浏览器，基于 Tor。" class="btn-rectangle"><img src="../../../assets/images/logos/medium/onion-browser.png" alt="onion-browser.png" class="card-logo"/>
+              <div class="title">Onion Browser</div>
+              <div class="small">IOS 平台上的开源浏览器，基于 Tor。</div>
+              <div class="tags">
+                <div class="tag">iOS
+                </div>
+              </div></a><a href="https://mike.tig.as/onionbrowser/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/orbot" title="拥有丰富特性和功能的安卓版 Tor。" class="btn-rectangle"><img src="../../../assets/images/logos/medium/orbot.png" alt="orbot.png" class="card-logo"/>
+              <div class="title">Orbot</div>
+              <div class="small">拥有丰富特性和功能的安卓版 Tor。</div>
+              <div class="tags">
+                <div class="tag">Android
+                </div>
+              </div></a><a href="https://guardianproject.info/apps/orbot/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/orweb" title="适应代理环境并且注重隐私的网页浏览器，通过 Orbot 的 localhost 8118 端口进行代理，也可以使用任何别的 HTTP 代理服务器。" class="btn-rectangle"><img src="../../../assets/images/logos/medium/orweb.png" alt="orweb.png" class="card-logo"/>
+              <div class="title">Orweb</div>
+              <div class="small">适应代理环境并且注重隐私的网页浏览器，通过 Orbot 的 localhost 8118 端口进行代理，也可以使用任何别的 HTTP 代理服务器。</div>
+              <div class="tags">
+                <div class="tag">Android
+                </div>
+              </div></a><a href="https://guardianproject.info/apps/orweb/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/ricochet" title="开箱即用的匿名和无服务的即时通讯工具。" class="btn-rectangle"><img src="../../../assets/images/logos/medium/ricochet.png" alt="ricochet.png" class="card-logo"/>
+              <div class="title">Ricochet</div>
+              <div class="small">开箱即用的匿名和无服务的即时通讯工具。</div>
+              <div class="tags">
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">macOS
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://ricochet.im/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/riseup" title="安全私密的电子邮件账户，为那些社会活动人士设计。" class="btn-rectangle"><img src="../../../assets/images/logos/medium/riseup.png" alt="riseup.png" class="card-logo"/>
+              <div class="title">Riseup</div>
+              <div class="small">安全私密的电子邮件账户，为那些社会活动人士设计。</div>
+              <div class="tags">
+                <div class="tag">网络服务
+                </div>
+              </div></a><a href="https://riseup.net/en" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/tails" title="Live CD/USB 设计的致力于保护你的隐私和匿名性的系统" class="btn-rectangle"><img src="../../../assets/images/logos/medium/tails.png" alt="tails.png" class="card-logo"/>
+              <div class="title">Tails</div>
+              <div class="small">Live CD/USB 设计的致力于保护你的隐私和匿名性的系统</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">macOS
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://tails.boum.org/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/tor" title="用于实现在线匿名的自由软件。Tor 将网络流量通过一个由超过 4000 个中继志愿者组成的全球性自由网络转发，使用户免于受到网络监控或流量分析，避免泄漏地理位置等信息。使用 Tor 让网络活动更难以追踪，包括&quot;访问网站、发帖、即时通讯和其他通讯形式&quot;。Tor 致力于保护用户隐私，同时保护他们通过网络开展秘密活动的自由和能力。" class="btn-rectangle"><img src="../../../assets/images/logos/medium/tor.png" alt="tor.png" class="card-logo"/>
+              <div class="title">Tor</div>
+              <div class="small">用于实现在线匿名的自由软件。Tor 将网络流量通过一个由超过 4000 个中继志愿者组成的全球性自由网络转发，使用户免于受到网络监控或流量分析，避免泄漏地理位置等信息。使用 Tor 让网络活动更难以追踪，包括"访问网站、发帖、即时通讯和其他通讯形式"。Tor 致力于保护用户隐私，…</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">macOS
+                </div>
+                <div class="tag">服务器
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://www.torproject.org/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/tor-browser" title="通过Tor网络，以加密、匿名的方式浏览。" class="btn-rectangle"><img src="../../../assets/images/logos/medium/tor-browser.png" alt="tor-browser.png" class="card-logo"/>
+              <div class="title">Tor Browser</div>
+              <div class="small">通过Tor网络，以加密、匿名的方式浏览。</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">macOS
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://www.torproject.org/projects/torbrowser.html.en" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/torbirdy" title="这个插件让火狐/冰鼬鼠能通过 Tor 联网。" class="btn-rectangle"><img src="../../../assets/images/logos/medium/torbirdy.png" alt="torbirdy.png" class="card-logo"/>
+              <div class="title">TorBirdy</div>
+              <div class="small">这个插件让火狐/冰鼬鼠能通过 Tor 联网。</div>
+              <div class="tags">
+                <div class="tag">BSD
+                </div>
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">macOS
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://trac.torproject.org/projects/tor/wiki/torbirdy" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/up1" title="Client-side encrypted image host web server." class="btn-rectangle"><img src="../../../assets/images/logos/medium/up1.png" alt="up1.png" class="card-logo"/>
+              <div class="title">Up1</div>
+              <div class="small">Client-side encrypted image host web server.</div>
+              <div class="tags">
+                <div class="tag">服务器
+                </div>
+                <div class="tag">网络服务
+                </div>
+              </div></a><a href="https://github.com/Upload/Up1/blob/master/README.md" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="card"><a href="../../projects/whonix" title="虚拟机友好的操作系统，基于 Debian 和 Tor，致力于匿名、隐私和安全。" class="btn-rectangle"><img src="../../../assets/images/logos/medium/whonix.png" alt="whonix.png" class="card-logo"/>
+              <div class="title">Whonix</div>
+              <div class="small">虚拟机友好的操作系统，基于 Debian 和 Tor，致力于匿名、隐私和安全。</div>
+              <div class="tags">
+                <div class="tag">GNU/Linux
+                </div>
+                <div class="tag">macOS
+                </div>
+                <div class="tag">Windows
+                </div>
+              </div></a><a href="https://www.whonix.org/" class="btn-square"><i class="fa fa-external-link-square"></i></a></div>
+          <div class="filler-columns-two">
+            <div class="card two-col"> </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-side">
+        <div class="section"><a href="../../protocols/" class="pipe">协议</a>
+          <div title="匿名性" class="pipe subtle">匿名性</div><a href="../../protocols/i2p" class="bar child">
+            <div class="label">I2P
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a>
+          <div class="bar active child">
+            <div class="label">Tor
+            </div>
+            <div class="icon"><i class="fa fa-dot-circle-o"></i></div>
+          </div>
+          <div title="通讯" class="pipe subtle">通讯</div><a href="../../protocols/dns" class="bar child">
+            <div class="label">DNS
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/irc" class="bar child">
+            <div class="label">IRC
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/matrix" class="bar child">
+            <div class="label">Matrix
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/sip" class="bar child">
+            <div class="label">SIP
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/tox" class="bar child">
+            <div class="label">Tox
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/voip" class="bar child">
+            <div class="label">VoIP
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/xmpp" class="bar child">
+            <div class="label">XMPP
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a>
+          <div title="加密" class="pipe subtle">加密</div><a href="../../protocols/gpg" class="bar child">
+            <div class="label">GPG
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/omemo" class="bar child">
+            <div class="label">OMEMO
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/otr" class="bar child">
+            <div class="label">OTR
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/s-mime" class="bar child">
+            <div class="label">S/MIME
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/ssl-tls" class="bar child">
+            <div class="label">SSL/TLS
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/zrtp" class="bar child">
+            <div class="label">ZRTP
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a>
+          <div title="同步" class="pipe subtle">同步</div><a href="../../protocols/activesync" class="bar child">
+            <div class="label">ActiveSync
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/caldav" class="bar child">
+            <div class="label">CalDAV
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/carddav" class="bar child">
+            <div class="label">CardDAV
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a><a href="../../protocols/webdav" class="bar child">
+            <div class="label">WebDAV
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a>
+          <div title="聚合" class="pipe subtle">聚合</div><a href="../../protocols/rss" class="bar child">
+            <div class="label">RSS
+            </div>
+            <div class="icon"><i class="fa fa-angle-right ltr"></i><i class="fa fa-angle-left rtl"></i></div></a>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="content-side">
+        <div class="text-block">
+          <p class="disclaimer">免责声明：使用本网站推荐的项目并不能保证您的通信100％不受监视。在您选择相信这些软件，赋予其敏感信息之前，请先进行深入了解。</p>
+        </div>
+      </div>
+      <div class="content-main">
+        <ul class="languages">
+          <li><a href="../../../ar/protocols/tor/">العربية</a></li>
+          <li><a href="../../../ca/protocols/tor/">Català</a></li>
+          <li><a href="../../../de/protocols/tor/">Deutsch</a></li>
+          <li><a href="../../../el/protocols/tor/">ελληνικά</a></li>
+          <li><a href="../../../eo/protocols/tor/">Esperanto</a></li>
+          <li><a href="../../../en/protocols/tor/">English</a></li>
+          <li><a href="../../../es/protocols/tor/">Español</a></li>
+          <li><a href="../../../fa/protocols/tor/">فارسی</a></li>
+          <li><a href="../../../fi/protocols/tor/">Suomi</a></li>
+          <li><a href="../../../fr/protocols/tor/">Français</a></li>
+          <li><a href="../../../he/protocols/tor/">עברית</a></li>
+          <li><a href="../../../hi/protocols/tor/">हिन्दी</a></li>
+          <li><a href="../../../io/protocols/tor/">Ido</a></li>
+          <li><a href="../../../it/protocols/tor/">Italiano</a></li>
+          <li><a href="../../../ja/protocols/tor/">日本語</a></li>
+          <li><a href="../../../nl/protocols/tor/">Nederlands</a></li>
+          <li><a href="../../../no/protocols/tor/">Norsk</a></li>
+          <li><a href="../../../pl/protocols/tor/">Polski</a></li>
+          <li><a href="../../../pt/protocols/tor/">Português</a></li>
+          <li><a href="../../../ru/protocols/tor/">Русский</a></li>
+          <li><a href="../../../sr/protocols/tor/">srpski</a></li>
+          <li><a href="../../../sr-Cyrl/protocols/tor/">српски</a></li>
+          <li><a href="../../../sv/protocols/tor/">Svenska</a></li>
+          <li><a href="../../../tr/protocols/tor/">Türkçe</a></li>
+          <li><a href="../../../zh-CN/protocols/tor/">简体中文</a></li>
+          <li><a href="../../../zh-TW/protocols/tor/">繁體中文</a></li>
+        </ul>
+      </div>
+      <ul class="nav">
+        <li><a href="https://github.com/nylira/prism-break/issues">贡献</a></li>
+        <li><a href="https://github.com/nylira/prism-break/blob/master/LICENSE.md">许可</a></li>
+        <li><a href="https://github.com/nylira/prism-break">源代码</a></li>
+        <li><a href="https://github.com/nylira/prism-break/commits/master">更新于: 2018-01-19</a></li>
+        <li class="copyright">© <a href="https://nylira.com">Peng Zhong </a>2018
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
